@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumière Beauty Spa – Kosmetik & Wellness in Hamburg-Rotherbaum</title>
+  <meta name="description" content="Lumière Beauty Spa Hamburg: Exklusive Kosmetikbehandlungen, Anti-Aging, Massagen & Wellness in Rotherbaum. Jetzt Termin vereinbaren.">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✿</text></svg>">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HEADER
+  ════════════════════════════════════════════ -->
+  <header id="header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Lumière Beauty Spa – Startseite">
+        <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" aria-hidden="true">
+          <path d="M16 4 C16 4 10 10 10 18 C10 22.4 12.6 26 16 26 C19.4 26 22 22.4 22 18 C22 10 16 4 16 4Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
+          <path d="M16 4 C16 4 10 10 10 18" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M11 15 C13 13 15 14 16 16" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+          <path d="M21 15 C19 13 17 14 16 16" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">Lumière</span>
+      </a>
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#preise">Preise</a>
+        <a href="#team">Team</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a href="#kontakt" class="btn btn-primary btn-sm">Termin anfragen</a>
+      <button class="burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" aria-hidden="true">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#preise">Preise</a>
+      <a href="#team">Team</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#kontakt" class="btn btn-primary">Termin anfragen</a>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-image-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1600&q=85&auto=format&fit=crop"
+        alt="Entspannende Kosmetikbehandlung bei Lumière Beauty Spa Hamburg"
+        loading="eager"
+        width="1600" height="900"
+      >
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-body">
+      <p class="eyebrow">Hamburg · Rotherbaum · Seit 2015</p>
+      <h1>Deine Haut.<br>Dein Strahlen.</h1>
+      <p class="hero-sub">Ganzheitliche Schönheitspflege in ruhiger Atmosphäre – individuell, wissenschaftlich fundiert, mit Herz.</p>
+      <div class="hero-ctas">
+        <a href="#kontakt" class="btn btn-champagne btn-lg">Termin vereinbaren</a>
+        <a href="#leistungen" class="btn btn-ghost btn-lg">Leistungen entdecken</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Mehr entdecken</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       USP STRIP
+  ════════════════════════════════════════════ -->
+  <div class="usp-strip">
+    <div class="container">
+      <div class="usp-grid">
+        <div class="usp-item" data-reveal>
+          <span class="usp-icon">✦</span>
+          <span>Über 10 Jahre Erfahrung</span>
+        </div>
+        <div class="usp-item" data-reveal data-delay="100">
+          <span class="usp-icon">✦</span>
+          <span>Hochwertige Naturkosmetik</span>
+        </div>
+        <div class="usp-item" data-reveal data-delay="200">
+          <span class="usp-icon">✦</span>
+          <span>Individuelle Hautanalyse</span>
+        </div>
+        <div class="usp-item" data-reveal data-delay="300">
+          <span class="usp-icon">✦</span>
+          <span>Zertifizierte Spezialistinnen</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       LEISTUNGEN
+  ════════════════════════════════════════════ -->
+  <section id="leistungen" class="section section-light">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-label">Was wir anbieten</p>
+        <h2>Unsere Behandlungen</h2>
+        <p class="section-sub">Jede Behandlung beginnt mit einem persönlichen Gespräch – denn Ihre Haut ist einzigartig.</p>
+      </div>
+      <div class="treatment-grid">
+
+        <article class="treatment-card" data-reveal data-delay="0">
+          <div class="treatment-img">
+            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80&auto=format&fit=crop" alt="Gesichtsbehandlung bei Lumière" loading="lazy">
+          </div>
+          <div class="treatment-body">
+            <p class="treatment-label">01</p>
+            <h3>Gesichts&shy;behandlungen</h3>
+            <p>Von der klassischen Tiefenreinigung über Mikrodermabrasion bis zum Anti-Aging Lifting – für sichtbare Ergebnisse, die anhalten.</p>
+            <a href="#preise" class="treatment-link">Zu den Preisen</a>
+          </div>
+        </article>
+
+        <article class="treatment-card" data-reveal data-delay="120">
+          <div class="treatment-img">
+            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=80&auto=format&fit=crop" alt="Massage und Körperpflege bei Lumière" loading="lazy">
+          </div>
+          <div class="treatment-body">
+            <p class="treatment-label">02</p>
+            <h3>Körper &amp; Massagen</h3>
+            <p>Entspannungsmassagen, Aromaöl-Anwendungen, Hot-Stone und regenerierende Körperpeelings für tiefe Erholung von Körper und Geist.</p>
+            <a href="#preise" class="treatment-link">Zu den Preisen</a>
+          </div>
+        </article>
+
+        <article class="treatment-card" data-reveal data-delay="240">
+          <div class="treatment-img">
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=80&auto=format&fit=crop" alt="Specials und Wellness bei Lumière" loading="lazy">
+          </div>
+          <div class="treatment-body">
+            <p class="treatment-label">03</p>
+            <h3>Specials &amp; Rituale</h3>
+            <p>Braut-Beautypakete, LED-Lichttherapie und kostenlose Hautanalyse – besondere Momente verdienen besondere Behandlungen.</p>
+            <a href="#kontakt" class="treatment-link">Anfragen</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       ÜBER UNS
+  ════════════════════════════════════════════ -->
+  <section id="ueber-uns" class="section section-sage">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image" data-reveal>
+          <div class="about-img-frame">
+            <img
+              src="https://images.unsplash.com/photo-1552693673-1bf958298935?w=700&q=85&auto=format&fit=crop"
+              alt="Emma Schulz – Inhaberin Lumière Beauty Spa Hamburg"
+              loading="lazy"
+            >
+          </div>
+          <div class="about-img-tag">
+            <strong>Seit 2015</strong>
+            <span>in Hamburg-Rotherbaum</span>
+          </div>
+        </div>
+        <div class="about-text" data-reveal data-delay="100">
+          <p class="section-label">Unsere Geschichte</p>
+          <h2>Kosmetik, die<br>berührt.</h2>
+          <p>Lumière wurde 2015 von Emma Schulz gegründet – mit der Vision, Kosmetik nicht als oberflächliche Pflege, sondern als ganzheitliches Wohlbefinden zu verstehen.</p>
+          <p>In ruhiger Lage am Mittelweg kombinieren wir wissenschaftlich fundierte Methoden mit dem Bewusstsein für das, was Ihre Haut wirklich braucht. Keine Standardlösungen – jede Behandlung ist ein individuelles Erlebnis.</p>
+          <blockquote class="about-quote">
+            „Schönheit entsteht, wenn man sich wirklich um sich selbst kümmert."
+            <cite>— Emma Schulz, Inhaberin</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       GALERIE
+  ════════════════════════════════════════════ -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-label">Einblicke</p>
+        <h2>Das Studio</h2>
+        <p class="section-sub">Eine Wohlfühlatmosphäre, die alle Sinne beruhigt.</p>
+      </div>
+      <div class="gallery-grid" data-reveal>
+        <div class="gallery-item gallery-wide">
+          <img src="https://images.unsplash.com/photo-1604537466158-719b1972feb8?w=900&q=80&auto=format&fit=crop" alt="Behandlungsraum Lumière Beauty Spa" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=500&q=80&auto=format&fit=crop" alt="Facial Treatment bei Lumière" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=500&q=80&auto=format&fit=crop" alt="Wellness Atmosphäre Lumière" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1531299244174-d247dd4e5a66?w=500&q=80&auto=format&fit=crop" alt="Kosmetikprodukte bei Lumière" loading="lazy">
+        </div>
+        <div class="gallery-item gallery-wide">
+          <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=900&q=80&auto=format&fit=crop" alt="Entspannende Massage bei Lumière" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PREISE
+  ════════════════════════════════════════════ -->
+  <section id="preise" class="section section-bg">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-label">Preisliste</p>
+        <h2>Transparente Preise</h2>
+        <p class="section-sub">Alle Preise inkl. MwSt. · Endpreis nach individuellem Behandlungsaufwand</p>
+      </div>
+      <div class="price-columns">
+
+        <div class="price-column" data-reveal data-delay="0">
+          <h3>Gesicht</h3>
+          <ul class="price-list">
+            <li><span>Hautanalyse</span><span class="price-val">kostenlos</span></li>
+            <li><span>Klassische Tiefenreinigung</span><span class="price-val">75 €</span></li>
+            <li><span>Intensivpflege-Behandlung</span><span class="price-val">95 €</span></li>
+            <li><span>Mikrodermabrasion</span><span class="price-val">120 €</span></li>
+            <li><span>Anti-Aging Lifting</span><span class="price-val">145 €</span></li>
+            <li><span>LED-Lichttherapie</span><span class="price-val">65 €</span></li>
+            <li><span>Hyaluron-Infusion</span><span class="price-val">110 €</span></li>
+          </ul>
+        </div>
+
+        <div class="price-divider"></div>
+
+        <div class="price-column" data-reveal data-delay="100">
+          <h3>Körper & Massagen</h3>
+          <ul class="price-list">
+            <li><span>Entspannungsmassage 30 min</span><span class="price-val">55 €</span></li>
+            <li><span>Entspannungsmassage 60 min</span><span class="price-val">90 €</span></li>
+            <li><span>Aromaöl-Massage 60 min</span><span class="price-val">100 €</span></li>
+            <li><span>Hot-Stone Massage</span><span class="price-val">120 €</span></li>
+            <li><span>Körperpeeling</span><span class="price-val">85 €</span></li>
+            <li><span>Fango-Wickel</span><span class="price-val">70 €</span></li>
+          </ul>
+        </div>
+
+        <div class="price-divider"></div>
+
+        <div class="price-column" data-reveal data-delay="200">
+          <h3>Specials</h3>
+          <ul class="price-list">
+            <li><span>Braut-Beauty Paket</span><span class="price-val">auf Anfrage</span></li>
+            <li><span>Verwöhn-Ritual 90 min</span><span class="price-val">150 €</span></li>
+            <li><span>Gutscheine</span><span class="price-val">ab 50 €</span></li>
+          </ul>
+          <p class="price-hint">Alle Pakete individuell zusammenstellbar. Sprechen Sie uns an!</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       TEAM
+  ════════════════════════════════════════════ -->
+  <section id="team" class="section section-light">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-label">Das Team</p>
+        <h2>Mit Leidenschaft für Ihre Haut</h2>
+      </div>
+      <div class="team-grid">
+
+        <article class="team-card" data-reveal data-delay="0">
+          <div class="team-photo">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&q=80&auto=format&fit=crop&crop=face" alt="Emma Schulz – Inhaberin Lumière Beauty Spa" loading="lazy">
+          </div>
+          <div class="team-info">
+            <h3>Emma Schulz</h3>
+            <p class="team-role">Inhaberin & Skincare-Expertin</p>
+            <p>10 Jahre Erfahrung in ganzheitlicher Kosmetik. Spezialisiert auf Anti-Aging und medizinische Hautpflege.</p>
+          </div>
+        </article>
+
+        <article class="team-card" data-reveal data-delay="120">
+          <div class="team-photo">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=500&q=80&auto=format&fit=crop&crop=face" alt="Isabelle Vogt – Senior Kosmetikerin bei Lumière" loading="lazy">
+          </div>
+          <div class="team-info">
+            <h3>Isabelle Vogt</h3>
+            <p class="team-role">Senior Kosmetikerin</p>
+            <p>Spezialistin für Anti-Aging und Mikrodermabrasion. Ausgebildet in Paris und Hamburg.</p>
+          </div>
+        </article>
+
+        <article class="team-card" data-reveal data-delay="240">
+          <div class="team-photo">
+            <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&h=500&q=80&auto=format&fit=crop&crop=face" alt="Marie Baum – Wellness & Massagen bei Lumière" loading="lazy">
+          </div>
+          <div class="team-info">
+            <h3>Marie Baum</h3>
+            <p class="team-role">Wellness & Massagen</p>
+            <p>Zertifizierte Massagetherapeutin mit Schwerpunkt auf Aromatherapie und Hot-Stone-Anwendungen.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       BEWERTUNGEN
+  ════════════════════════════════════════════ -->
+  <section class="section section-bg">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-label">Stimmen unserer Gäste</p>
+        <h2>Was unsere Kunden sagen</h2>
+        <div class="rating-row">
+          <span class="stars" aria-label="5 von 5 Sternen">★★★★★</span>
+          <span class="rating-text"><strong>4.9</strong> · 96 Bewertungen auf Google</span>
+        </div>
+      </div>
+      <div class="testimonial-grid">
+
+        <blockquote class="testimonial" data-reveal data-delay="0">
+          <p class="testimonial-text">„Eine echte Wohlfühloase mitten in Hamburg. Die Behandlung bei Emma war einfach transformativ – meine Haut hat sich in Wochen sichtbar verbessert."</p>
+          <footer class="testimonial-author">
+            <span class="author-name">Katharina M.</span>
+            <span class="author-date">März 2025</span>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial" data-reveal data-delay="100">
+          <p class="testimonial-text">„Isabelle ist eine absolute Expertin. Das Anti-Aging-Lifting hat fantastische Ergebnisse gebracht. Ich komme seit zwei Jahren regelmäßig und würde Lumière immer weiterempfehlen."</p>
+          <footer class="testimonial-author">
+            <span class="author-name">Claudia F.</span>
+            <span class="author-date">Februar 2025</span>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial" data-reveal data-delay="200">
+          <p class="testimonial-text">„Die Hot-Stone Massage bei Marie war das Entspannendste, was ich seit Jahren erlebt habe. Die Atmosphäre ist einfach perfekt – ruhig, gepflegt und sehr angenehm."</p>
+          <footer class="testimonial-author">
+            <span class="author-name">Stefan W.</span>
+            <span class="author-date">Januar 2025</span>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial" data-reveal data-delay="300">
+          <p class="testimonial-text">„Endlich ein Kosmetikstudio, das wirklich auf meine Haut eingeht. Die kostenlose Hautanalyse war sehr aufschlussreich. Ich fühle mich hier von Anfang an verstanden."</p>
+          <footer class="testimonial-author">
+            <span class="author-name">Anna L.</span>
+            <span class="author-date">Dezember 2024</span>
+          </footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       KONTAKT
+  ════════════════════════════════════════════ -->
+  <section id="kontakt" class="section section-sage">
+    <div class="container">
+      <div class="contact-wrap">
+
+        <div class="contact-text" data-reveal>
+          <p class="section-label">Termin & Kontakt</p>
+          <h2>Wir freuen uns<br>auf Sie.</h2>
+          <p class="contact-intro">Buchen Sie Ihren Termin telefonisch, per E-Mail oder direkt online. Für Erstbesuche empfehlen wir eine kostenlose Hautanalyse.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <strong>Adresse</strong>
+                <p>Mittelweg 118<br>20148 Hamburg-Rotherbaum</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.81a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <div>
+                <strong>Telefon</strong>
+                <p><a href="tel:+494041235680">+49 40 41 23 56 80</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <div>
+                <strong>E-Mail</strong>
+                <p><a href="mailto:hallo@lumiere-beauty.de">hallo@lumiere-beauty.de</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </span>
+              <div>
+                <strong>Öffnungszeiten</strong>
+                <p>Di – Fr &nbsp; 09:00 – 18:00<br>Sa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09:00 – 15:00<br>Mo + So &nbsp; geschlossen</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap" data-reveal data-delay="150">
+          <form class="contact-form" id="contact-form" novalidate>
+            <h3>Nachricht senden</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Ihr Name *</label>
+                <input type="text" id="name" name="name" placeholder="Maria Müller" autocomplete="name">
+                <span class="form-error" id="name-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">E-Mail-Adresse *</label>
+                <input type="email" id="email" name="email" placeholder="maria@beispiel.de" autocomplete="email">
+                <span class="form-error" id="email-error"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="behandlung">Gewünschte Behandlung</label>
+              <select id="behandlung" name="behandlung">
+                <option value="">Bitte wählen …</option>
+                <option>Kostenlose Hautanalyse</option>
+                <option>Gesichtsbehandlung</option>
+                <option>Anti-Aging Lifting</option>
+                <option>Massage / Körperpflege</option>
+                <option>Specials / Pakete</option>
+                <option>Sonstiges</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="nachricht">Ihre Nachricht *</label>
+              <textarea id="nachricht" name="nachricht" rows="4" placeholder="Wunschtermin, Fragen, besondere Hinweise …"></textarea>
+              <span class="form-error" id="nachricht-error"></span>
+            </div>
+            <button type="submit" class="btn btn-champagne btn-lg btn-block" id="submit-btn">
+              Nachricht senden
+            </button>
+            <div class="form-success" id="form-success" hidden>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Vielen Dank! Wir melden uns innerhalb von 24 Stunden.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="18" height="18" aria-hidden="true">
+              <path d="M16 4 C16 4 10 10 10 18 C10 22.4 12.6 26 16 26 C19.4 26 22 22.4 22 18 C22 10 16 4 16 4Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
+              <path d="M11 15 C13 13 15 14 16 16" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+              <path d="M21 15 C19 13 17 14 16 16" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+            </svg>
+            <span class="logo-text">Lumière</span>
+          </a>
+          <p>Kosmetik & Wellness<br>Hamburg-Rotherbaum</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#leistungen">Leistungen</a>
+          <a href="#ueber-uns">Über uns</a>
+          <a href="#preise">Preise</a>
+          <a href="#team">Team</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+        <div class="footer-contact">
+          <p>Mittelweg 118 · 20148 Hamburg</p>
+          <p><a href="tel:+494041235680">+49 40 41 23 56 80</a></p>
+          <p><a href="mailto:hallo@lumiere-beauty.de">hallo@lumiere-beauty.de</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Lumière Beauty Spa · Alle Inhalte sind fiktiv</p>
+        <nav class="footer-legal" aria-label="Rechtliche Links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#">AGB</a>
+        </nav>
+        <p class="footer-credit">Demo-Website von <a href="#">SwiftSites</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
