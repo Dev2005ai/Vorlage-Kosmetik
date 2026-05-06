@@ -1108,3 +1108,99 @@ h3 { font-size: clamp(1.3rem, 2vw, 1.65rem); }
   text-decoration: none;
   font-weight: 500;
 }
+
+/* ── MOBILE OPTIMIZATIONS (≤ 600px) ─────────── */
+@media (max-width: 600px) {
+
+  /* Base */
+  body { font-size: 0.95rem; }
+  .section { padding-block: 4rem; }
+
+  /* Header */
+  .header-inner { padding-inline: 1.1rem; }
+  .main-nav, .header-inner > .btn { display: none; }
+  .burger { display: flex; }
+
+  /* Buttons — min 48px touch target */
+  .btn { min-height: 48px; padding: 0.85rem 1.5rem; font-size: 0.8rem; }
+  .btn-sm { min-height: 44px; padding: 0.65rem 1.1rem; }
+
+  /* Mobile menu */
+  .mobile-menu { padding: 1.5rem 1.1rem 2rem; }
+  .mobile-menu a { padding: 0.85rem 0; font-size: 1rem; }
+
+  /* Hero */
+  .hero { min-height: 100svh; }
+  .hero-body { padding: 0 1.1rem 3.5rem; text-align: left; }
+  .hero-body h1 { font-size: clamp(2.8rem, 11vw, 4rem); }
+  .hero-body .eyebrow { font-size: 0.6rem; margin-bottom: 1rem; }
+  .hero-body .hero-sub { font-size: 0.9rem; margin-inline: 0; }
+  .hero-ctas { justify-content: flex-start; }
+  .hero-scroll-hint { display: none; }
+
+  /* USP Strip */
+  .usp-item { font-size: 0.72rem; }
+
+  /* Leistungen */
+  .split-header { gap: 1rem; margin-bottom: 2rem; }
+  .split-header h2 { font-size: clamp(2rem, 9vw, 3rem); }
+  .split-desc { font-size: 0.88rem; }
+  .treatment-grid { max-width: 100%; }
+  .treatment-body { padding: 1.25rem; }
+  .treatment-body h3 { font-size: 1.2rem; }
+  .treatment-body p { font-size: 0.85rem; }
+
+  /* Über uns */
+  .about-img-tag { right: 0.5rem; bottom: 0.5rem; padding: 0.7rem 1rem; font-size: 0.78rem; }
+  .about-text h2 { font-size: clamp(2rem, 9vw, 3rem); }
+  .about-text > p { font-size: 0.88rem; }
+  .about-quote { padding: 1.1rem 1.25rem; }
+  .about-quote p { font-size: 1rem; }
+
+  /* Galerie */
+  .gallery-grid { grid-template-columns: 1fr 1fr; }
+  .gallery-wide { grid-column: span 2; }
+  .gallery-item img { aspect-ratio: 4/3; }
+  .gallery-wide img { aspect-ratio: 16/9; }
+
+  /* Preise */
+  .price-col { padding: 0; }
+  .price-column h3 { font-size: 1.3rem; margin-bottom: 1rem; }
+  .price-list li { font-size: 0.82rem; padding-block: 0.6rem; }
+  .price-val { font-size: 0.92rem; }
+
+  /* Team */
+  .team-info h3 { font-size: 1.3rem; }
+  .team-info > p:last-child { font-size: 0.85rem; }
+
+  /* Testimonials */
+  .testimonial { padding: 1.5rem; }
+  .testimonial-text { font-size: 0.95rem; }
+  .reviews-header { flex-direction: column; gap: 0.75rem; }
+
+  /* Kontakt */
+  .contact-text h2 { font-size: clamp(2rem, 9vw, 3rem); }
+  .contact-intro { font-size: 0.88rem; }
+  .contact-item p { font-size: 0.85rem; }
+  .contact-item a { min-height: 44px; display: inline-flex; align-items: center; }
+  .contact-form-wrap { padding: 1.5rem 1.1rem; }
+  .contact-form h3 { font-size: 1.2rem; margin-bottom: 1.25rem; }
+  .form-group input,
+  .form-group select,
+  .form-group textarea { font-size: 1rem; padding: 0.85rem 0.9rem; } /* prevents iOS zoom */
+
+  /* Footer */
+  .footer-top { gap: 1.5rem; padding-bottom: 1.5rem; }
+  .footer-bottom { flex-direction: column; text-align: center; gap: 0.75rem; }
+  .footer-legal { justify-content: center; }
+  .footer-legal a { min-height: 44px; display: flex; align-items: center; }
+}
+
+/* ── VERY SMALL SCREENS (≤ 360px) ───────────── */
+@media (max-width: 360px) {
+  .hero-body h1 { font-size: 2.5rem; }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-wide { grid-column: span 1; }
+  .hero-ctas { flex-direction: column; }
+  .hero-ctas .btn { width: 100%; justify-content: center; }
+}
